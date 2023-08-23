@@ -1,0 +1,172 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+  }
+  /*header*/
+
+.meterial-icones{
+  color: rgb(96,96,96);
+}
+.border{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 15px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.header-left{
+  display: flex;
+  align-items: center;
+}
+
+.header-left input{
+  width: 40px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.header-left img{
+  width: 150px;
+}
+.header-search form{
+  border: 1px solid rgb(15, 15, 15);
+  width: 500px;
+  height: 35px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.header-search input{
+  width: 470px;
+  padding: 10px;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+}
+.header-search img{
+  margin: 0;
+  padding: 0;
+  width: 30px;
+  border: none;
+  ;
+  border-radius: 0;
+  
+}
+.header-icones i{
+  width: 50%;
+  margin-left: 15px;
+  cursor: pointer;
+}
+/*header ends*/
+
+
+
+.main-body{
+  height: calc(100vh - 70px);
+  display: flex;
+  overflow: hidden;
+}
+/*sidebar*/
+
+.side-bar{
+  height: 100%;
+  width: 230px;
+  background-color: white;
+  overflow: scroll;
+}
+.sidebar-catogaries{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  margin-top: 15px
+}
+.sidebar-catogary{
+  display: flex;
+  align-items: center;
+  padding: 12px 25px;
+
+}
+.sidebar-catogary span{
+  margin-left: 15px;
+}
+.sidebar-catogary:hover{
+  background: white;
+  cursor: pointer;
+}
+.side-bar::-webkit-scrollbar{
+  display: none;
+}
+hr{
+  height: 1px;
+  background-color: #e5e5e5;
+  border: none;
+}
+/*videos*/
+
+.videos{
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  padding: 15px 25px;
+  border-top: 1px solid white;
+  overflow: scroll;
+
+}
+.video-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+.video{
+  width: 310px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+
+}
+.categories{
+  margin-left: 200px;
+}
+.categories button{
+  border-radius: 10px;
+  padding: 5px  5PX;
+  margin-left: 10PX;
+}
+
+.video-thumbnail{
+  width: 100%;
+  
+
+} 
+.video-thumbnail-image{
+  object-fit: cover;
+  height: 175px;
+  width: 310px;
+}
+.channel-icon{
+  border-radius: 50%;
+  
+}
+.video-channel-name{
+  text-decoration: none;
+  color: black;
+
+}
+.video-details{
+  display: flex;
+}
